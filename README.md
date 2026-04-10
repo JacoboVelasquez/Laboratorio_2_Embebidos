@@ -17,13 +17,4 @@ Laboratorio de programación sobre una matriz de LEDs bicolor 5×5 controlada po
 
 El jugador (LED verde) se encuentra fijo en la última fila de la matriz y puede moverse horizontalmente con los botones. Obstáculos (LEDs rojos) caen desde la fila superior hacia abajo en columnas aleatorias. Si un obstáculo alcanza la misma posición del jugador, el juego termina con una animación de game over y se reinicia automáticamente. La velocidad de caída aumenta progresivamente cada 3 obstáculos esquivados.
 
-## Estructura del proyecto
-
-```
-lab2-embebidos/
-├── main/
-│   └── main.c
-├── CMakeLists.txt
-└── platformio.ini
-```
 
